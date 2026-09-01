@@ -1,0 +1,7 @@
+torch
+torch-geometric
+transformers
+scikit-learn
+kagglehub
+numpy
+networkx

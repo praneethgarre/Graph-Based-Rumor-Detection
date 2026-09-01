@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+._*
+
+# Logs
+*.log
+
+# Local environment/config files
+.env
+.env.*
+!.env.example
+
+# Large datasets
+data/
+dataset/
+datasets/
+*.zip
+*.tar
+*.tar.gz
+
+# Processed graph data / model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Hugging Face / Transformers cache
+.cache/
+huggingface/
+transformers_cache/
+
+# Kaggle cache
+kaggle/
+kagglehub/
+.kaggle/
+
+# Experiment / training outputs
+runs/
+wandb/
+mlruns/
+outputs/
+checkpoints/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Keep documentation placeholders
+!data/README.md
